@@ -6,9 +6,18 @@ each of the N days. The task is to find the maximum
 profit that can be earned by buying a stock on or selling 
 all previously bought stocks on a particular day.
 Input: arr[] = {2, 3, 5} Output: 5
-Input: arr[] = {8, 5, 1} Output: 0 */
+Input: arr[] = {8, 5, 1} Output: 0 
 
+Test Cases:
+Enter the No of Days:  5
+Enter The stocks Prices:   5
+7
+9
+2
+1
+Maximum Profit is : 6
 
+*/
 
 #include<iostream>
 using namespace std;
@@ -46,5 +55,6 @@ int max=0;
 
     cout<<"Maximum Profit is : "<<profit;
     return 0;
+
 
 }
